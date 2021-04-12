@@ -22,13 +22,66 @@
         {
         overflow-x:hidden;
         }
+        .carousel-caption {
+          position: relative;
+          border: 0px solid black;
+          top: 0;
+          left: 0;
+          color: black;
+          text-align: center;
+          padding: 0px;
+        }
+
     </style>
 </head>
 
     <body>
         <div class="container-fluid">
 
-
+        <!-- nav bar starting-->
+        <nav class="navbar navbar-expand-lg navbar-ligh sticky-top " style="background-color:	#FFB6C1;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Online Booking</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">price</a>
+        </li>
+        
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Country
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">India</a>
+          <a class="dropdown-item" href="#">USA</a>
+          <a class="dropdown-item" href="#">Other</a>
+        </div>
+      </li>
+       
+      </ul>
+      <form class="d-flex justify-content-between" >
+        <input class="form-control me-2" type="search" placeholder="Search items...." aria-label="Search" style="width:450px;margin-left:10px;">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav">
+    <li class="nav-item" style="margin-right:5px;margin-left:60px">
+        <a class="nav-link btn btn-outline-primary" data-toggle="modal" data-target="#registration" >SIGN IN</a>
+      </li>
+    <li class="nav-item" style="margin-right:10px">
+        <a class="nav-link btn btn-outline-danger" href="login.php">LOGIN</a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <!--nav bar ending-->
 
         </div>
 
