@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,15 @@
         }
     </style>
 </head>
+<?php
+include("dbcon.php");
+session_start();
 
+if(isset($_POST['sumit'])){
+    
+}
+
+?>
     <body>
         <div class="container-fluid">
 
