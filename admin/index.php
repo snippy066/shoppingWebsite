@@ -10,7 +10,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Online Booking</title>
+    <link rel="stylesheet" href="files/font.css">
+    <script src="https://use.fontawesome.com/b80ad5dc68.js"></script>
+
+    <title>Online Booking Admin Panel</title>
     <style>
         .container-fluid {
         margin:0px;padding:0px;
