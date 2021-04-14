@@ -61,7 +61,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">India</a>
           <a class="dropdown-item" href="#">USA</a>
-          <a class="dropdown-item" href="#">Other</a>
+          
         </div>
       </li>
        
